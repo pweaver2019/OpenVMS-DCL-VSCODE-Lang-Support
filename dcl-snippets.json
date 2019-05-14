@@ -19,22 +19,22 @@
 	"Generate if statement": {
 		"prefix": "if ",
 		"body": [
-			"if $1",
-			"then",
-			"    $2",
-			"endif"
+			"$ if $1",
+			"$ then",
+			"$     $2",
+			"$ endif"
 		],
 		"description": "Generate if structure"
 	},
 	"Generate if-else statement": {
 		"prefix": "ifelse ",
 		"body": [
-			"if $1",
-			"then",
-			"    $2",
-			"else",
-			"    $3",
-			"endif"
+			"$ if $1",
+			"$ then",
+			"$     $2",
+			"$ else",
+			"$     $3",
+			"$ endif"
 		],
 		"description": "Generate if else structure"
 	},
